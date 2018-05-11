@@ -1,0 +1,153 @@
+<<<<<<< HEAD
+#skills {
+  background: #f7f7f7;
+  text-align: center;
+  padding: 1px;
+  margin-top: -1%;
+  h2 {
+    display: inline-block;
+    font-size: 2.0rem;
+    margin: 0 auto;
+    border-bottom: 3px solid $secondary-color;
+  }
+  h4 {
+    font-size: 7.0rem;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-shadow: 3px 3px 2px $primary-color;
+  }
+}
+
+i:hover {
+  color: $secondary-color;
+}
+
+.skillcard {
+  width: 33.3%;
+  font-size: 8.0rem;
+  text-align: center;
+}
+
+.progress {
+  padding: 5% 0;
+}
+
+.skills-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 20%;
+}
+
+.skills-heading {
+  padding: 10% 0 5%;
+}
+
+.skillcard-icon {
+  margin: 0 auto;
+}
+
+#skills {
+  transform: skewY(3deg);
+}
+
+.skills-main {
+  transform: skewY(-3deg);
+}
+
+.progress  {
+  width: 100%;
+}
+
+@media (max-width: $laptop ) {
+  .outerwrapper {
+    /* background: rebeccapurple; */
+  }
+
+}
+
+@media (max-width: $tablet ) {
+  .outerwrapper {
+    /* background: seagreen; */
+  }
+  #skills {
+    h4 {
+      font-size: 3.5rem;
+    }
+    .skills-heading {
+      margin-bottom: 15%;
+    }
+    .skillcard {
+      font-size: 4.0rem;
+    }
+  }
+
+}
+
+@media (max-width: $mobile ) {
+  .outerwrapper {
+    /* background: goldenrod; */
+  }
+
+}
+=======
+#skills {
+  background: #f7f7f7;
+  text-align: center;
+  padding: 1px;
+  margin-top: -1%;
+  h2 {
+    display: inline-block;
+    font-size: 2.0rem;
+    margin: 0 auto;
+    border-bottom: 3px solid $secondary-color;
+  }
+  h4 {
+    font-size: 7.0rem;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-shadow: 3px 3px 2px $primary-color;
+  }
+}
+
+i:hover {
+  color: $secondary-color;
+}
+
+.skillcard {
+  width: 33.3%;
+  font-size: 8.0rem;
+  text-align: center;
+}
+
+.progress {
+  padding: 5% 0;
+}
+
+.skills-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 10%;
+}
+
+.skills-heading {
+  padding: 10% 0 5%;
+}
+
+.skillcard-icon {
+  margin: 0 auto;
+}
+
+#skills {
+  transform: skewY(3deg);
+}
+
+.skills-main {
+  transform: skewY(-3deg);
+}
+
+.progress  {
+  width: 100%;
+}
+>>>>>>> 19e3f8a9b42affd66fde29e987b2904424074d61

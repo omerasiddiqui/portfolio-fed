@@ -1,0 +1,603 @@
+<<<<<<< HEAD
+.float {
+  -webkit-animation-name: Floating;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Floating{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 50px);}
+    to {-webkit-transform: translate(0, -0px);    }
+}
+
+.spin {
+  -webkit-animation-name: Spinning;
+    -webkit-animation-duration: 12s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Spinning{
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+.shapes .sqare {
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 3px solid #fdc0b6;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .circle {
+  position: absolute;
+  top: -38vh;
+  left: 7vw;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid white;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .triangle {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 150px;
+  left: 1200px;
+}
+
+
+// SQUARES
+.shapes .sqare:nth-of-type(1) {
+  position: absolute;
+  top: -75vh;
+  left: 10vw;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 3px solid $secondary-color;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+  background: white;
+}
+
+.shapes .sqare:nth-of-type(2) {
+  position: absolute;
+  top: -300px;
+  left: 1200px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 3px solid $light-color;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .sqare:nth-of-type(3) {
+  position: absolute;
+  top: -60vh;
+  left: 94vw;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 3px solid $secondary-color;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .sqare:nth-of-type(4) {
+  position: absolute;
+  top: -67vh;
+  left: 88vw;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 3px solid $light-color;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .sqare:nth-of-type(5) {
+  position: absolute;
+  top: -10vh;
+  left: 93vw;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border: 3px solid black;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .sqare:nth-of-type(6) {
+  position: absolute;
+  top: 2vh;
+  left: 45vw;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 3px solid $light-color;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .sqare:nth-of-type(7) {
+  position: absolute;
+  top: 2vh;
+  left: 20vw;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 3px solid white;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .sqare:nth-of-type(8) {
+  position: absolute;
+  top: -87vh;
+  left: 4vw;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 3px solid black;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+// TRIANGLES
+
+.shapes .triangle:nth-of-type(1) {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -2vh;
+  left: 85vw;
+}
+
+.shapes .triangle:nth-of-type(2) {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -25vh;
+  left: 3vw;
+}
+
+.shapes .triangle:nth-of-type(3) {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 5vh;
+  left: 55vw;
+}
+
+.shapes .triangle:nth-of-type(4) {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -35vh;
+  left: 85vw;
+}
+
+.shapes .triangle:nth-of-type(5) {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -5vh;
+  left: 8vw;
+
+}
+
+.shapes .triangle:nth-of-type(6) {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 1vh;
+  left: 35vw;
+}
+
+.shapes .triangle:nth-of-type(7) {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -60vh;
+  left: 2vw;
+}
+
+// CIRCLES
+
+.shapes .circle:nth-child(1) {
+  position: absolute;
+  top: -900px;
+  left: 1200px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid black;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .circle:nth-child(2) {
+  position: absolute;
+  top: -1500px;
+  left: 700px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid $secondary-color;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .circle:nth-child(3) {
+  position: absolute;
+  top: -1500px;
+  left: 700px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid $secondary-color;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .circle2 {
+  position: absolute;
+  top: -25vh;
+  left: 90vw;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid white;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .circle3 {
+  position: absolute;
+  top: 3vh;
+  left: 67vw;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid #d13201;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .circle4 {
+  position: absolute;
+  top: -53vh;
+  left: 88vw;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid black;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .circle5 {
+  position: absolute;
+  top: 2vh;
+  left: 79vw;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid $light-color;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+=======
+.float {
+  -webkit-animation-name: Floating;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Floating{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 50px);}
+    to {-webkit-transform: translate(0, -0px);    }
+}
+
+.spin {
+  -webkit-animation-name: Spinning;
+    -webkit-animation-duration: 12s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Spinning{
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+.shapes .sqare {
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 3px solid #fdc0b6;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .circle {
+  position: absolute;
+  top: -300px;
+  left: 100px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid white;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .triangle {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 150px;
+  left: 1200px;
+}
+
+
+// SQUARES
+.shapes .sqare:nth-of-type(1) {
+  position: absolute;
+  top: -500px;
+  left: 150px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 3px solid $secondary-color;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .sqare:nth-of-type(2) {
+  position: absolute;
+  top: -300px;
+  left: 500px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 3px solid $light-color;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .sqare:nth-of-type(3) {
+  position: absolute;
+  top: -500px;
+  left: 1500px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 3px solid $secondary-color;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .sqare:nth-of-type(4) {
+  position: absolute;
+  top: -800px;
+  left: 1300px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 3px solid $light-color;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .sqare:nth-of-type(5) {
+  position: absolute;
+  top: -200px;
+  left: 1500px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 3px solid $light-color;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .sqare:nth-of-type(6) {
+  position: absolute;
+  top: 20px;
+  left: 800px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 3px solid $light-color;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+// TRIANGLES
+
+.shapes .triangle:nth-of-type(1) {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -20px;
+  left: 1350px;
+}
+
+.shapes .triangle:nth-of-type(2) {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -200px;
+  left: 50px;
+}
+
+.shapes .triangle:nth-of-type(3) {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -600px;
+  left: 1400px;
+}
+
+.shapes .triangle:nth-of-type(4) {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -350px;
+  left: 1350px;
+}
+
+.shapes .triangle:nth-of-type(5) {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -50px;
+  left: 140px;
+}
+
+.shapes .triangle:nth-of-type(6) {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 10px;
+  left: 500px;
+}
+
+.shapes .triangle:nth-of-type(7) {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -600px;
+  left: 140px;
+}
+
+// CIRCLES
+
+.shapes .circle:nth-child(1) {
+  position: absolute;
+  top: -900px;
+  left: 1200px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid black;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .circle:nth-child(2) {
+  position: absolute;
+  top: -1500px;
+  left: 700px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid $secondary-color;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .circle:nth-child(3) {
+  position: absolute;
+  top: -1500px;
+  left: 700px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid $secondary-color;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .circle2 {
+  position: absolute;
+  top: -400px;
+  left: 1400px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid white;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .circle3 {
+  position: absolute;
+  top: -100px;
+  left: 1400px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid #d13201;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .circle4 {
+  position: absolute;
+  top: -400px;
+  left: 1400px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid black;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+
+.shapes .circle5 {
+  position: absolute;
+  top: 25px;
+  left: 1300px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid $light-color;
+  transition: border-color .4s ease;
+  -webkit-transition: border-color .4s ease;
+}
+>>>>>>> 19e3f8a9b42affd66fde29e987b2904424074d61
